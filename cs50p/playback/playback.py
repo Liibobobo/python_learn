@@ -1,19 +1,9 @@
-# python method
-# def playback():
-#     speech = input ("His speech:")
-#     #replace space with \t
-#     new_speech = speech.replace(" ","\t")
-#    # new_speech = speech.expandtabs()
-#     print (new_speech.expandtabs(3))
-# playback()
-
-# again
 def playback():
     speech = input ("His speech:")
     # split first
     speech_sep = speech.split()
     print (speech_sep)
-    #append ... for list just split
-    speech_sep = speech_sep.append("...")
-    print (speech_sep)
+    # join again with "..."
+    new_speech = '...'.join(speech_sep)
+    print (new_speech)
 playback()
