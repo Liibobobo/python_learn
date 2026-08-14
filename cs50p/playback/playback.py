@@ -10,5 +10,5 @@
 # again
 def playback():
     speech = input ("His speech:")
-    speech = speech.split()
+    speech_sep = speech.split()
 
