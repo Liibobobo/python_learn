@@ -13,6 +13,6 @@ def playback():
     # split first
     speech_sep = speech.split()
     print (speech_sep)
-    for i in speech_sep:
-        print (i)
+    speech_sep = speech_sep.append("...")
+    print (speech_sep)
 playback()
