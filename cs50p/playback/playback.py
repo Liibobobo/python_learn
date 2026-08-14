@@ -1,4 +1,4 @@
-# my method
+# python method
 def playback():
     speech = input ("His speech:")
     #replace space with \t
