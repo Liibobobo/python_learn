@@ -1,0 +1,8 @@
+Problem 0: 
+- funtion from python: 
+    + string.casefold: changing string to all lower case 
+    + string.split(): separate string, recognize by " "
+    + " ".join(): join list with something in between 
+    + str.removeprefix(".."): remove expect character from left to right 
+    + len: count character of string
+    + function f: allowing to print string with calling variable inside , example: print(f"Leave ${tip:.2f}")
