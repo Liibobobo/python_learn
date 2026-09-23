@@ -6,3 +6,5 @@ Problem 0:
     + str.removeprefix(".."): remove expect character from left to right 
     + len: count character of string
     + function f: allowing to print string with calling variable inside , example: print(f"Leave ${tip:.2f}")
+    + function i: check sub_string in string or not, return true or false
+- match - case: 'interpeter' ex
